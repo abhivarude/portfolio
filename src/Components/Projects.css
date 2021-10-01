@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Noto+Sans+JP&display=swap');
+.parent1{
+  background: rgb(9,9,10);
+  background: linear-gradient(23000deg, rgba(9,9,10,1) 23%, rgba(128,128,129,1) 100%, rgba(0,212,255,1) 100%);  
+  }
+  
+  ._content{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-bottom: 5px solid #e1e2e6;
+  }
+  
+  .title{
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+  }
+  
+  .title_{
+    font-family: 'Lato', sans-serif;
+  
+  }
+  .content-n{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.2rem;
+
+  }
+
+  .tech{
+    border: 1px solid #000000;
+    border-radius:50px 20px;
+  }
+
+  .color{
+       color:#77787a;
+  }

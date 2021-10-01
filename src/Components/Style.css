@@ -1,0 +1,111 @@
+
+  
+  .prime{
+      margin-top: 10%;
+      
+  }
+  
+  .pic{
+      box-shadow: 10px -10px 40px  #888888; 
+      position: relative;
+      
+  }
+  
+  .content{
+     position:relative;
+  }
+  
+  .content1{
+     position:absolute;
+     right: 5%;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Nunito:wght@300&display=swap');
+  .head1{
+    font-size: 4rem;
+  }
+  
+  .para{
+    font-size: 1.5rem;
+  }
+  
+  .font1{
+    font-family: 'Merriweather', serif;
+  }
+  
+  .font2{
+    font-family: 'Nunito', sans-serif;
+  }
+
+  @media screen and (max-width:600px){
+     .font1{
+       font-size: medium;
+     } 
+     .font2{
+      font-size: medium; 
+     }
+     .pic{
+       margin-top: 7%;
+     }
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+    
+  @keyframes move-twink-back {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: -10000px 5000px;
+    }
+  }
+  
+  @keyframes move-clouds-back {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 10000px 0;
+    }
+  }
+  
+  .stars,
+  .twinkling,
+  .clouds {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  
+  .stars {
+    background: #000
+      url(https://github.com/Carla-Codes/starry-night-css-animation/blob/master/stars.png?raw=true)
+      repeat top center;
+    z-index: 0;
+  }
+  
+  .twinkling {
+    background: transparent
+      url(https://github.com/Carla-Codes/starry-night-css-animation/blob/master/twinkling.png?raw=true)
+      repeat top center;
+    z-index: 1;
+    animation: move-twink-back 200s linear infinite;
+  }
+  
+  .clouds {
+    background: transparent
+      url(https://github.com/Carla-Codes/starry-night-css-animation/blob/master/clouds.png?raw=true)
+      repeat top center;
+    z-index: 2;
+    opacity: 0.4;
+    animation: move-clouds-back 200s linear infinite;
+  }
+  
