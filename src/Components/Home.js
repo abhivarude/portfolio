@@ -29,7 +29,7 @@ export default function Home(){
          </div>
         </div> 
         <div className="col-md-6  col-lg-6">
-        <img className="img-fluid pic " alt="Smiley face" src="https://res.cloudinary.com/abhiscompany/image/upload/c_scale,w_616/v1632992184/profile_hc6hwg.jpg"  
+        <img className="img-fluid pic " alt="Smiley face" src="https://res.cloudinary.com/abhiscompany/image/upload/c_scale,h_453,w_444/v1633274575/abhi_cvvx4y.jpg"  
         />
         </div> 
        </div> 
